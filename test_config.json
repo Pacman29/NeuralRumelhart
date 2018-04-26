@@ -1,0 +1,48 @@
+{
+  "neuralType": "MultilayerPerceptron",
+  "neuralConfig": [
+    {
+      "neurons": [
+        {
+          "neuronType": "HiddenNeuron",
+          "neuronParams": {
+            "inputsWeights": [
+              5.832305060164184,
+              -6.058524618143317
+            ],
+            "bias": -3.1407617460843444,
+            "learningSpeed": 1
+          }
+        },
+        {
+          "neuronType": "HiddenNeuron",
+          "neuronParams": {
+            "inputsWeights": [
+              7.042422647294956,
+              -7.2605957932631675
+            ],
+            "bias": 3.668466907636208,
+            "learningSpeed": 1
+          }
+        }
+      ],
+      "neuralLayerType": "HiddenNeuralLayer"
+    },
+    {
+      "neurons": [
+        {
+          "neuronType": "OutputNeuron",
+          "neuronParams": {
+            "inputsWeights": [
+              10.549619144099193,
+              -10.151234891736646
+            ],
+            "bias": 4.866180646059719,
+            "learningSpeed": 1
+          }
+        }
+      ],
+      "neuralLayerType": "OutputNeuralLayer"
+    }
+  ]
+}
