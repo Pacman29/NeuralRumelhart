@@ -1,6 +1,6 @@
 import MultilayerPerceptron from "./MultilayerPerceptron";
 import random from "./BaseNeuralNetwork/lib/random";
-import Dataset from "./DatasetLow";
+import Dataset from "./Dataset";
 
 async function testMultilayer(){
     let dataset = [
